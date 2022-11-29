@@ -1,0 +1,13 @@
+body{
+    background-image: linear-gradient(to right , #4facfe , #00f2fe );
+    margin: 0;
+}
+
+.container{
+}
+
+.header{
+    font-size: 30px;
+    background: rgba( 255, 255, 255, 0.3 );
+    padding: 10px;
+}
