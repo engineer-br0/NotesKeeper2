@@ -5,11 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
+    
 </head>
 <body>
     <div class="container">
+        <!-- header -->
        <div class="header"> NotesKeeper</div>
+
+       <div>
+        <form class="create-note" onsubmit="return false">
+            <div>
+            <input
+            id="title"
+            value="sample title"
+              name="title"
+              placeholder="Title" 
+            />
+            <br/>
+          <input
+          id="tag"
+          value="smaple tag"
+          name="tagline"
+          placeholder="Tagline..."
+        />
+        </div>
+  
+          <input
+          id="content"
+          value="sample note content"
+            name="content"
+            placeholder="Take a note..."
+          />
+
+          <button id="add" onclick="addFunc()" type="submit" > +</button>
+        </form>
+
+        <div id="notes" class="notes">
+            <!-- <table id="tb">
+                
+            </table> -->
+
+            <div class="note">
+              <h2>name</h2>
+              <h3>tag</h3>
+              <p>note</p>
+            </div>
+        </div>
+      </div>
+
     </div>
+
+    
+    <script src="script.js" ></script>
 </body>
 </html>

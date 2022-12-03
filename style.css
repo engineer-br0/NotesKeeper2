@@ -11,3 +11,60 @@ body{
     background: rgba( 255, 255, 255, 0.3 );
     padding: 10px;
 }
+
+.create-note {
+    position: relative;
+    max-width: 90%;
+    width: 480px;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138 137 137);
+}
+
+input, input:focus, textarea:focus{
+    width: 100%;
+    border: 0 solid;
+    font-size: larger;
+    outline: none;
+}
+
+.notes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.note{
+    position: relative;
+    max-width: 325px;
+    min-width: 280px;
+    margin: 30px auto 20px auto;
+    background: rgba(255, 255, 255, 0.275);
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138 137 137);
+}
+
+.note img{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+h2, h3, p{
+    margin: 0;
+}
+
+#add{
+    position: absolute;
+    right: 10px;
+    bottom: -18px;
+    border: 0;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    color: #00060aee;
+    background-color: #11121271;
+    border-radius: 100px;
+}
