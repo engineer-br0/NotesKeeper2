@@ -16,7 +16,7 @@ if(data){
 
     for(let i = 0; i<data.length; i++){
         tbData += `<div class="note">
-                      <img src="/del.png" onclick="deleteFunc(i)"/>
+                      <img src="/del.svg" onclick="deleteFunc(i)"/>
                       <h2>${data[i].title}</h2>
                       <h3>${data[i].tag}</h3>
                       <p>${data[i].content}</p>
